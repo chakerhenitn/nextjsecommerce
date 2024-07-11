@@ -5,6 +5,6 @@ import React from 'react'
 export default function Footer() {
   const {user} = useUser();
   return user && (
-    <div>Footer</div>
+    <div>Footer 1</div>
   )
 }

@@ -26,7 +26,7 @@ export default function Cart() {
     </svg>
   </button>
 
-  <div className="mt-4 space-y-6">
+  <div className="mt-4 space-y-4">
     <ul className="space-y-4">
         {cart?.map((item)=>(
             <li key={item?.id} className="flex items-center gap-4">
