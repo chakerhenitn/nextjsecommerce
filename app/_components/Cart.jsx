@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useContext } from 'react'
 import { CartContext } from '../_context/CartContext';
 import Link from 'next/link';
@@ -26,7 +27,7 @@ export default function Cart() {
     </svg>
   </button>
 
-  <div className="mt-4 space-y-4">
+  <div className="mt-4 space-y-6">
     <ul className="space-y-4">
         {cart?.map((item)=>(
             <li key={item?.id} className="flex items-center gap-4">
